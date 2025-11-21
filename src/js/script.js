@@ -22,3 +22,6 @@ if (carousel) {
         });
     });
 }
+const premierItem = document.querySelector(".carousel__item");
+const scrollAmount = premierItem ? premierItem.clientWidth : 260;
+
