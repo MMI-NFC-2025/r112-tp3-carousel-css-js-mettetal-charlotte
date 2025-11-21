@@ -3,6 +3,7 @@
 img {
   max-width: 100%;
   height: auto;
+  background-size:contain;
 }
 
 /* Mise en forme du carousel en CSS.
@@ -74,3 +75,4 @@ Les margin négatifs à gauche et à droite corresponde à l'espace entre le nav
   /* Affiche l'image comme un bloc - https://developer.mozilla.org/fr/docs/Web/CSS/display */
   display: block;
 }
+
