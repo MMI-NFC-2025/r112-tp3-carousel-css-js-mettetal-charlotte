@@ -43,6 +43,11 @@ Les margin négatifs à gauche et à droite corresponde à l'espace entre le nav
   justify-content: center;
   border: 1px solid #ff0000;
   border-radius: 50%;
+  position: center;
+  top: 50%;
+  transform: ;
+  
+  
 }
 .carousel__button--prev {
   /* Fait pivoter le bouton de 180 degrés - https://developer.mozilla.org/fr/docs/Web/CSS/transform */
@@ -62,6 +67,7 @@ Les margin négatifs à gauche et à droite corresponde à l'espace entre le nav
   margin-left: -24px;
   margin-right: -24px;
   scroll-snap-type: x mandatory;
+  position: relative;
 }
 
 .carousel__item {
@@ -69,6 +75,7 @@ Les margin négatifs à gauche et à droite corresponde à l'espace entre le nav
   /* Aligne l'élément au centre lors du défilement - https://developer.mozilla.org/fr/docs/Web/CSS/scroll-snap-align */
   flex: 1 0 260px;
   scroll-snap-align: center;
+  
 }
 
 .carousel__item img {
